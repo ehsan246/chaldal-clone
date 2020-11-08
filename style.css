@@ -34,6 +34,15 @@ a, p {
     color: inherit;
 }
 
+
+ol, ul {
+    list-style: none;
+}
+
+
+
+
+
 body div .wrap {
     height: inherit;
 }
@@ -75,6 +84,102 @@ body div .wrap {
 }
 
 
+.menuWrapper {
+    left: 0;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    will-change: left;
+}
+
+
+div .topMenu .vertical {
+    background-color: #fff;
+    border-right: 1px solid #CCC;
+}
+
+.menu {
+    overflow-y: auto;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.misc-menu {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+
+div .topMenu .vertical ul:first-child {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+div .topMenu .vertical ul li {
+    display: block;
+}
+
+
+div .topMenu .vertical ul .misc-menu li div .name {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+div .topMenu .vertical ul li div .name a, div.topMenu.vertical ul li div .name > div {
+    padding: 5px 0 5px 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    letter-spacing: .1px;
+}
+
+div .topMenu.vertical ul .misc-menu li div .name a span {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-contet {
 	padding-top: 55px;
@@ -82,6 +187,7 @@ body div .wrap {
 	width: 100%;
 	height: 100%;
 	height: inherit;
+    left: 285px;
 }
 
 
