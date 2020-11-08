@@ -1,0 +1,531 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI',Helvetica,'Droid Sans',Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    color: #615e58;
+    line-height: normal;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    border: 0;
+}
+
+a, p {
+    color: inherit;
+}
+
+body div .wrap {
+    height: inherit;
+}
+
+
+.header {
+	height: 55px;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.headerWrapper {
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+}
+
+
+.top-header {
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    background-color: #fdd670;
+    min-width: 315px;
+    border-bottom: 1px solid #DFB547;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+	align-items: center;
+}
+
+
+
+.main-contet {
+	padding-top: 55px;
+	padding-bottom: 65px;
+	width: 100%;
+	height: 100%;
+	height: inherit;
+}
+
+
+
+.top-section{
+	background: url(landingBannerTop.jpg) no-repeat center;
+    background-size: auto;
+	background-size: cover;
+	height: 325px;
+	padding-top: 100px;
+
+}
+
+.top-section .searchBar {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.top-section .searchBar .seacrhBarContent {
+	margin: 0 auto;
+	display: table;
+	color: #fff;
+	text-align: center;
+
+}
+
+.top-section .searchBar .seacrhBarContent h2 {
+	color: #000;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+
+.top-section .searchBar .seacrhBarContent .searchArea{
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 800px;
+    float: left;
+    position: relative;
+    box-sizing: content-box;
+    color: #000;
+    min-width: 100%;
+}
+
+
+.top-section .searchBar .seacrhBarContent .searchArea table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.top-section .searchBar .seacrhBarContent .searchArea input{
+    padding: 4px 12px;
+    width: 100%;
+    height: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 6px 0 0 6px;
+    border: .5px solid #c8c8c8;
+        border-right-color: rgb(200, 200, 200);
+        border-right-style: solid;
+        border-right-width: 0.5px;
+    border-right: none;
+    position: relative;
+    top: 0;
+}
+
+
+
+
+
+.secound-section{
+	max-width: 1180px;
+	margin: 20px auto;
+
+}
+
+
+.secound-section .image1{
+	float: left;
+}
+
+.secound-section .image2{
+	float: right;
+}
+
+.secound-section::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+.product-catagory{
+	max-width: 1170px;
+	margin: auto;
+	margin-bottom: 40px;
+	padding: 0 15px;
+}
+
+
+
+.section-label{
+	display: table;
+	margin: 0 auto 20px;
+	width: 100%;
+	padding-top: 0;
+	text-align: center;
+}
+
+.section-label h2{
+	color: rgba(0,0,0,.95);
+	font-weight: 300;
+	padding-top: 0;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+
+.product-catagory .catagory-table{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.product-catagory .catagory-table .categoryBox{
+    width: 32%;
+    border: 1px solid #d4d4d4;
+    float: left;
+    margin: .5%;
+    padding: 15px 10px 15px 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.product-catagory .catagory-table .categoryBox a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.product-catagory .catagory-table .categoryBox .categoryName{
+    width: 80%;
+    float: left;
+    font-size: 15px;
+    line-height: 31px;
+    text-decoration-color: black;
+}
+
+
+
+
+
+
+.slide-image {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.slide-image .slide{
+	margin-bottom: 40px;
+}
+
+
+
+
+.special-offer {
+	margin-bottom: 40px;
+
+}
+
+
+.special-offer .offer-slide {
+	display: block;
+	overflow: visible;
+	text-align: center;
+	height: auto;
+	margin: 0 auto;
+}
+
+.items-carousel {
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+
+.items-carousel .carousel{
+	max-width: 1000px;
+	position: relative;
+	margin: 0 auto 40px;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+
+.user-rivew {
+    max-width: 2560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.userTile{
+    display: block;
+    overflow: visible;
+    text-align: center;
+}
+
+
+.user-rivew .userTile .tile{
+    display: inline-block;
+    width: calc(100% / 3);
+    position: relative;
+}
+
+
+
+.user-rivew .userTile .tile img{
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+
+
+.user-rivew .userTile .tile .tileHeaderText{
+	min-height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    min-height: 35%;
+    background-color: rgba(255,255,255,.8);
+    border-bottom: 3px solid #fdd670;
+}
+
+
+
+
+
+
+
+
+.user-rivew .userTile .tile .tileHeaderText p{
+    font-size: 16px;
+	margin-bottom: 15px;
+	letter-spacing: 0;
+	font-weight: 400;
+	color: rgba(0,0,0,.87);
+}
+
+
+.user-rivew .userTile .tile .tileHeaderText h3 {
+    font-size: 20px;
+    margin: 20px 0 25px;
+    margin-top: 20px;
+}
+
+
+.feedback {
+    max-width: 1200px;
+    margin: 20px auto 60px;
+}
+
+
+
+
+.items-carousel .carousel .carousel-innerContent{
+    width: 100%;
+    display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+
+
+.download-app{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.dlApps{
+    margin-bottom: 0;
+    padding: 50px 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dlAppsContent{
+    padding-right: 15px;
+    text-align: center;
+    width: 70%;
+}
+
+
+
+
+.download-app .dlApps .dlAppsContent .heading {
+    font-weight: 300;
+    color: rgba(0,0,0,.95);
+    margin-bottom: 50px;
+}
+
+
+.inputGroup{
+    font-size: 16px;
+}
+
+.phoneNumberLoginField {
+    position: relative;
+    max-width: 65%;
+    display: inline-block;
+    margin-bottom: 25px;
+
+}
+
+
+
+.inputGroup input[type="submit"] {
+    background-color: #ff686e;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    color: #fff;
+    outline: 0;
+    max-width: 30%;
+    padding: 15px 20px;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+.phoneNumberLoginField .input {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+.inputGroup input[type="tel"] {
+    background-color: #eee;
+    border: 2px solid #eee;
+    border-right-color: rgb(238, 238, 238);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right: 0;
+    border-radius: 6px 0 0 6px;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 13px 13px 13px 45px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+
+.appButtonGroup {
+    margin-top: 20px;
+}
+
+
+
+.appButtonGroup > a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 74px;
+    width: auto;
+    margin: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+
+.appButtonGroup > a > img {
+    height: 100%;
+    width: auto;
+}
+
+
+.appPreview {
+    align-self: flex-end;
+    width: 30%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px){
+	.top-section .searchBar .seacrhBarContent .searchArea{
+		width: 300px;
+	}
+
+}
+
+
+@media (max-width:1050px){
+	.top-section {
+		margin-top:-15px;
+		height:300px;
+	}
+}
